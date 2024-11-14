@@ -216,7 +216,7 @@ nav ul {
     font-size: 14px;
   }
   .paralax2{
-    height: 145vh;
+    height: 145%;
   }
   .pagina{
 
@@ -231,7 +231,7 @@ nav ul {
   .paralax3{
     display: flex;
     flex-direction: column;
-    height: 97vh;
+    height: 97%;
   }
   .titulo__endereco{
    justify-content: center;
@@ -246,6 +246,7 @@ nav ul {
     margin: 10px;
     width: 350px;
     height: 350px;
+
   }.sessao__contato{
     margin: 10px;
   }
