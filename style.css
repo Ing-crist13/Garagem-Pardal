@@ -117,7 +117,6 @@ nav ul {
     display: flex;
     font-family: "Host Grotesk", sans-serif;
     height: 50vh;
-
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -183,5 +182,72 @@ nav ul {
   font-family: "Anton SC", sans-serif;
   font-size: 0.9rem;
   font-weight: 400px;
+}
+
+@media(max-width: 1200px){
+  .titulo{
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
+    border-radius: 20px;
+    padding: 10px;
+    color: black;
+    font-size: 2rem;
+    font-family: "Anton SC", sans-serif;
+  }
+
+  .sobre__text{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 20px;
+   
+  }
+  .sobre__sub{
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+ 
+  .porque{
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    display: flex;
+    font-size: 14px;
+  }
+  .paralax2{
+    height: 145vh;
+  }
+  .pagina{
+
+    width: 120px;
+    height: 120x;
+    margin: 5px;
+    padding: 12px;
+    border-radius: 20px;
+    transition: width 0.5s;
+    
+  }
+  .paralax3{
+    display: flex;
+    flex-direction: column;
+    height: 97vh;
+  }
+  .titulo__endereco{
+   justify-content: center;
+  }
+
+  .titulo__contato{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mapa{
+    margin: 10px;
+    width: 350px;
+    height: 350px;
+  }.sessao__contato{
+    margin: 10px;
+  }
 }
  
