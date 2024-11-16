@@ -236,25 +236,44 @@ nav ul {
     margin-right: 30px;
     margin-left: 30px;
   }
- 
-  .porque{
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    display: flex;
-    font-size: 14px;
-  }
+
   .paralax2{
     height: 145%;
   }
-  .pagina{
 
-    width: 120px;
-    height: 120x;
-    margin: 5px;
+  .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .cards .card{
+    
+    
+    display: flex;
+    font-size: 14px;
+    width: 100px;
+    height: 30x;
+    margin: 2px;
     padding: 12px;
     border-radius: 20px;
     transition: width 0.5s;
     
+  }
+
+  .contato{
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+
+  .sessao__contato{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
   }
   .paralax3{
     display: flex;
@@ -265,18 +284,24 @@ nav ul {
    justify-content: center;
   }
 
+  .sessao__endereco{
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
   .titulo__contato{
     display: flex;
     justify-content: center;
   }
   
   .mapa{
-    margin: 10px;
     width: 350px;
     height: 350px;
+    
 
-  }.sessao__contato{
-    margin: 10px;
   }
 }
  
